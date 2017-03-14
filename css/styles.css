@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+.header-background {
+  background-color: #d1e3dd
+}
+#logo-style {
+  margin-top: 20px;
+  font-family: 'Baloo Bhaina', cursive;
+  color: #32292f;
+}
