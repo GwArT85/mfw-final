@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+@import url('https://fonts.googleapis.com/css?family=Ranga');
 
 .header-background {
-  background-color: #d1e3dd
+  background-color: #a1d2ce;
 }
 #logo-style {
   margin-top: 20px;
   font-family: 'Baloo Bhaina', cursive;
-  color: #32292f;
+  color: #208c61;
+}
+.chris {
+  height: 300px;
+}
+
+.greeting {
+  font-family: 'Ranga', cursive;
+  color: #208c61;
 }
