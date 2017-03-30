@@ -1,13 +1,35 @@
+/*fonts*/
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
 @import url('https://fonts.googleapis.com/css?family=Ranga');
-
+/*universals*/
+body {
+  background-color: #A1D2CE;
+}
+/*heaer*/
 .header-background {
   background-color: #a1d2ce;
 }
-#logo-style {
-  margin-top: 20px;
+.logo-style {
+  margin-top: -21%;
   font-family: 'Baloo Bhaina', cursive;
   color: #208c61;
+  font-size: 70px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #5497A7;
+  margin-top: 20%;
+}
+.nav>li>.active {
+  background-color: #A1D2CE;
+  color: red;
+  border-radius: 10px;
+}
+li>:hover {
+  color: #000;
+}
+/*main-content*/
+.main {
+  margin-top: 14%;
 }
 .chris {
   height: 300px;
@@ -16,4 +38,22 @@
 .greeting {
   font-family: 'Ranga', cursive;
   color: #208c61;
+  text-align: center;
+}
+/*FOOTER SECTION*/
+footer {
+    margin: 3% auto;
+    height: 140px;
+    background-color: #78CAD2;
+    text-align: center;
+}
+footer a, footer {
+  text-decoration: none;
+  color: #bfc0c1;
+}
+#social-media-wrapper {
+  text-align: center;
+}
+p {
+  color: #000;
 }

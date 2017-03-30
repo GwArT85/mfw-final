@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/portfolio.css">
     <link rel="icon" href="favicon.ico">
   </head>
   <body>
@@ -38,8 +39,8 @@
 
     	      </ul>
     	      <ul class="nav navbar-nav navbar-right">
-    	        <li><a href="index.html" class="active">Home</a></li>
-    					<li><a href="portfolio.html">Portfolio</a></li>
+    	        <li><a href="index.html">Home</a></li>
+    					<li><a href="portfolio.html" class="active">Portfolio</a></li>
     					<li><a href="contact.html">Contact</a></li>
     	      </ul>
     	    </div><!-- /.navbar-collapse -->
@@ -48,21 +49,38 @@
     	<!--Navbar ends here -->
 
     </header>
-    <div class="container-fluid main">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="img/me.jpg" alt="A picture of Chris at a diner." class="chris img-responsive pull-right">
-        </div>
-        <div class="col-md-6 greeting">
-          <h2>That's me, Chris.</h2>
-          <h2> I'm a front end developer.</h2>
-          <a href="portfolio.html">
-            <button class="btn btn-success">
-              <h2> Here's some stuff I've made.</h2>
-            </button>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <a href="https://preview.c9users.io/gwart85/final-project/index.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io">
+            <img src="img/rg.png" alt="Retro Gamespace" class="img-responsive" id="rg">
           </a>
         </div>
+        <div class="item">
+          <a href="https://codepen.io/gwart85/full/PWGKjN/">
+            <img src="img/florence.PNG" alt="Florence Nightingale Tribute Page" class="img-responsive" id="florence">
+          </a>
+        </div>
+        ...
       </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
     <footer>
       <div>
@@ -75,6 +93,7 @@
         <p>This page has been designed, coded and made pretty cool by Chris Lopez.</p>
       </div>
     </footer>
+
     <!-- scripts -->
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
